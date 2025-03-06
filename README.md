@@ -1,2 +1,6 @@
 # KNN-Employee-Attrition
 KNN model built and optimize to analyze employee attrition
+
+This project demonstrates the implementation of the K-Nearest Neighbors (KNN) algorithm in Python using a dataset from IBM HR Analytics Attrition Dataset, which can be found on [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset). The dataset contains various features related to employee attrition, and the goal is to predict whether an employee will leave the company based on these features. The project includes data preprocessing, feature selection, normalization, and standardization techniques, as well as the application of the KNN algorithm. Additionally, cross-validation is used to determine the optimal value of k for the model.
+
+The results of the project show that the KNN algorithm can achieve a reasonable level of accuracy in predicting employee attrition. The confusion matrix and classification report provide insights into the model's performance, including precision, recall, and F1-score. Cross-validation was used to find the optimal value of k, which helps in improving the model's performance. The project demonstrates the importance of data preprocessing and parameter tuning in building an effective machine learning model.
